@@ -104,6 +104,7 @@ justify-content: center;
     display: flex;
     align-items: center;
     align-content: center;
+    position: relative;
 }
 
 .time-song {
@@ -119,6 +120,17 @@ justify-content: center;
     margin: 0 20px;
 
 }
+
+.white-bar {
+    background-color: rgb(255, 255, 255);
+    width: 85px;
+    height: 4px;
+    border-radius: 999px;
+    margin: 0 20px;
+    position: absolute;
+    left: 18px;
+}
+
 
 
 /* MEDIA QUERY */
