@@ -108,7 +108,7 @@ justify-content: center;
 }
 
 .time-song {
-    font-size: 8px;
+    font-size: 12px;
     font-weight: bold;
 }
 
@@ -132,10 +132,38 @@ justify-content: center;
 }
 
 
+/* VOLUME */
+
+.volume-item {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.volume.grey-bar {
+    width: 120px;
+}
+
+.volume.white-bar {
+    width: 25px;
+    position: absolute;
+    left: 90px;
+}
+
+.fa-bars,
+.fa-desktop,
+.fa-desktop {
+    font-size: 16px;
+}
 
 /* MEDIA QUERY */
 
 @media (max-width: 877.99px) {
+
+
+    /* PLAYER-BAR */
 
     .grey-bar {
         width: 245px;
@@ -149,6 +177,9 @@ justify-content: center;
 
 @media (max-width: 638.99px) {
 
+
+    /* PLAYER-BAR */
+
     .grey-bar {
         width: 145px;
     }
@@ -161,9 +192,15 @@ justify-content: center;
 
 @media (max-width: 521.99px) {
     
+
+    /* SIDEBAR */
+
     .sidebar {
         flex-basis: 50px;
     }
+
+
+    /* PLAYER-BAR */
 
     .grey-bar {
         width: 125px;
