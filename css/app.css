@@ -1,0 +1,41 @@
+/* RESET RULES*/
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+ul,
+ol {
+	list-style: none;
+}
+
+a {
+	color: currentColor;
+	text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+/* LAYOUT */
+
+.main-content {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-page {
+    flex-grow: 1;
+}
+
+
+/* DEBUG */
+
+.debug > * {
+	border: 2px solid cornflowerblue;
+	min-height: 100px;
+}
