@@ -90,11 +90,11 @@ justify-content: center;
 }
 
 .fa-backward-step, .fa-forward-step {
-    font-size: 12px;
+    font-size: 20px;
 }
 
 .fa-shuffle .fa-rotate-right {
-    font-size: 15px;
+    font-size: 20px;
 }
 
 
@@ -137,15 +137,40 @@ justify-content: center;
 
 @media (max-width: 877.99px) {
 
+    .grey-bar {
+        width: 245px;
+    }
+
+    .white-bar {
+        width: 50px;
+    }
+
 }
 
 @media (max-width: 638.99px) {
 
+    .grey-bar {
+        width: 145px;
+    }
+
+    .white-bar {
+        width: 30px;
+    }
+
 }
 
 @media (max-width: 521.99px) {
+    
     .sidebar {
         flex-basis: 50px;
+    }
+
+    .grey-bar {
+        width: 125px;
+    }
+
+    .white-bar {
+        width: 27px;
     }
 }
 
