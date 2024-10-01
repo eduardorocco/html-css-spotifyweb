@@ -20,6 +20,7 @@ img {
     width: 100%;
 }
 
+
 /* LAYOUT */
 
 html {
@@ -53,6 +54,7 @@ button {
     display: contents;
 }
 
+
 /* PLAYER */
 
 .player-bar {
@@ -63,6 +65,12 @@ button {
     height: 90px;
 }
 
+.player-item {
+justify-content: center;
+}
+
+/* BUTTON */
+
 .player-bar button {
     color: white;
 }
@@ -72,6 +80,7 @@ button {
     display: flex;
     align-items: center;
     padding-top: 12px;
+    justify-content: center;
 }
 
 .fa-circle-play {
@@ -86,6 +95,30 @@ button {
 .fa-shuffle .fa-rotate-right {
     font-size: 15px;
 }
+
+
+/* BAR */
+
+.bar {
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.time-song {
+    font-size: 8px;
+    font-weight: bold;
+}
+
+.grey-bar {
+    background-color: gray;
+    width: 430px;
+    height: 4px;
+    border-radius: 999px;
+    margin: 0 20px;
+
+}
+
 
 /* MEDIA QUERY */
 
@@ -109,6 +142,4 @@ button {
 
 .debug > * {
 	border: 2px solid cornflowerblue;
-	min-height: 100px;
-    min-width: 40px;
 }
