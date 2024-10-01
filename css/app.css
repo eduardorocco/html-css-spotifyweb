@@ -35,10 +35,21 @@ img {
 
 .sidebar {
     flex-basis: 230px;
+    background-color: black;
+    color: white;
 }
 
 .page {
     flex-grow: 1;
+}
+
+/* PLAYER */
+
+.player-content {
+    background-color: rgba(40, 40, 40, 1);
+    color: white;
+    display: flex;
+    justify-content: space-between;
 }
 
 /* MEDIA QUERY */
@@ -64,4 +75,5 @@ img {
 .debug > * {
 	border: 2px solid cornflowerblue;
 	min-height: 100px;
+    min-width: 40px;
 }
