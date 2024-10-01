@@ -41,6 +41,21 @@ img {
     flex-grow: 1;
 }
 
+/* MEDIA QUERY */
+
+@media (max-width: 877.99px) {
+
+}
+
+@media (max-width: 638.99px) {
+
+}
+
+@media (max-width: 521.99px) {
+
+}
+
+
 
 /* DEBUG */
 
