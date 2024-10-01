@@ -22,6 +22,10 @@ img {
 
 /* LAYOUT */
 
+html {
+    font-family: "Open Sans", sans-serif;
+}
+
 .main-content {
     height: 100vh;
     display: flex;
@@ -41,11 +45,13 @@ img {
 
 .page {
     flex-grow: 1;
+    background-color: rgba(20, 25, 34, 1);
+    color: white;
 }
 
 /* PLAYER */
 
-.player-content {
+.player-bar {
     background-color: rgba(40, 40, 40, 1);
     color: white;
     display: flex;
