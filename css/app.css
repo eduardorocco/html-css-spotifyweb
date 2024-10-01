@@ -52,7 +52,9 @@ img {
 }
 
 @media (max-width: 521.99px) {
-
+    .sidebar {
+        flex-basis: 50px;
+    }
 }
 
 
