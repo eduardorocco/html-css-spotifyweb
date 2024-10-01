@@ -30,6 +30,15 @@ img {
 
 .main-page {
     flex-grow: 1;
+    display: flex;
+}
+
+.sidebar {
+    flex-basis: 230px;
+}
+
+.page {
+    flex-grow: 1;
 }
 
 
