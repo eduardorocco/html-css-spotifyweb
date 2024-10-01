@@ -60,10 +60,31 @@ button {
     color: white;
     display: flex;
     justify-content: space-between;
+    height: 90px;
 }
 
 .player-bar button {
     color: white;
+}
+
+.player-btn {
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    padding-top: 12px;
+}
+
+.fa-circle-play {
+    font-size: 30px;
+    
+}
+
+.fa-backward-step, .fa-forward-step {
+    font-size: 12px;
+}
+
+.fa-shuffle .fa-rotate-right {
+    font-size: 15px;
 }
 
 /* MEDIA QUERY */
