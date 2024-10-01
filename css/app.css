@@ -49,6 +49,10 @@ html {
     color: white;
 }
 
+button {
+    display: contents;
+}
+
 /* PLAYER */
 
 .player-bar {
@@ -56,6 +60,10 @@ html {
     color: white;
     display: flex;
     justify-content: space-between;
+}
+
+.player-bar button {
+    color: white;
 }
 
 /* MEDIA QUERY */
