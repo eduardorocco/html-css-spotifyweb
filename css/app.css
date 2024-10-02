@@ -42,6 +42,7 @@ html {
     flex-basis: 230px;
     background-color: black;
     color: white;
+    flex-shrink: 0;
 }
 
 .page {
@@ -146,12 +147,13 @@ justify-content: center;
     width: 120px;
     margin: 0 5px;
     margin-right: 10px;
+    flex-shrink: 1;
 }
 
 .volume.white-bar {
     width: 25px;
     position: absolute;
-    left: 90px;
+    left: 100px;
     margin: 0 5px;
 }
 
@@ -192,7 +194,7 @@ justify-content: center;
     color: rgba(135, 135, 135, 1);
     display: flex;
     gap: 10px;
-    margin-left: 20px;
+    padding-left: 20px;
     font-size: 18px;
 }
 
@@ -229,9 +231,23 @@ justify-content: center;
 
         /* SONG BTN */
 
-        .song-btn {
+    .song-btn {
             flex-direction: column;
-        }
+            margin-right: 10px;
+    }
+
+
+    /* VOLUME BAR */
+
+    .volume.grey-bar {
+        width: 100px;
+
+    }
+    
+    .volume.white-bar {
+        width: 20px;
+
+    }
     
 
 }
@@ -251,12 +267,33 @@ justify-content: center;
     /* PLAYER-BAR */
 
     .grey-bar {
-        width: 125px;
+        width: 75px;
     }
 
     .white-bar {
-        width: 27px;
+        width: 20px;
     }
+
+        /* VOLUME BAR */
+
+        .volume.grey-bar {
+            width: 80px;
+    
+        }
+        
+        .volume.white-bar {
+            width: 15px;
+    
+        }
+
+        .song-btn {
+            padding-left: 0;
+        }
+
+        .volume-item {
+          padding-left: 10px;
+        }
+        
 }
 
 
