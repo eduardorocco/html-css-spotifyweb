@@ -209,7 +209,6 @@ button {
 }
 
 
-
 .sidebar-icon {
     height: 23px;
     margin-right: 20px;
@@ -221,18 +220,16 @@ button {
 }
 
 .sidebar-content {
-    padding-bottom: 30px;
     display: flex;
+    padding-bottom: 15px;
+
 }
 
-.sidebar .sidebar-content {
+.sidebar .img-side-container {
     height: 23px;
     width: 23px;
 }
 
-#grey {
-    color: gray;
-}
 /* MEDIA QUERY */
 
 @media (max-width: 877.99px) {
