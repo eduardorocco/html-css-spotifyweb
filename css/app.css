@@ -281,7 +281,7 @@ button {
     flex-grow: 1;
 }
 
-.user .sidebar-text::after {
+.user .download::after {
     margin-top: 5px;
     content: '';
     display: block;
