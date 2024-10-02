@@ -199,10 +199,16 @@ button {
     padding-left: 23px;
 }
 
-.logo-container {
+.logo-container-l {
     height: 43px;
     width: 133px;
     margin-bottom: 30px;
+}
+
+.logo-container-sm {
+    height: 23px;
+    width: 23px;
+    margin-bottom: 15px;
 }
 
 .logo-l {
@@ -348,9 +354,28 @@ button {
 
     .sidebar {
         flex-basis: 50px;
-        
+        padding-left: 12px;
     }
-    
+
+    .logo-container-l {
+        display: none;
+    }
+
+    .sidebar-text {
+        display: none;
+    }
+
+    .main-menu {
+        flex-grow: 1;
+    }
+
+
+    .playlist-section {
+        display: none;
+    }
+
+    /* SLIDER */
+
     .slider-volume {
         min-width: 60px;
         margin-left: -10px;
