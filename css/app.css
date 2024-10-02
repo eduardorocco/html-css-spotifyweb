@@ -243,6 +243,7 @@ button {
     padding-top: 10px;
     text-transform: uppercase;
     padding-bottom: 10px;
+    font-size: 20px;
 }
 
 .add-btn {
@@ -265,11 +266,54 @@ button {
     padding: 10px 0px;
 }
 
+.sidebar {
+    display: flex;
+    flex-direction: column;
+}
 
+.playlist-section {
+    flex-grow: 1;
+}
 
+.user .sidebar-text::after {
+    margin-top: 5px;
+    content: '';
+    display: block;
+    width: 180px;
+    height: 1px;
+    background-color: rgba(217, 217, 217, 1);
+}
 
+.user .sidebar-text {
+    padding: 0;
+}
 
+.user-content {
+    margin: 20px 10px 10px 0px;
+    width: 26px;
+    height: 26px;
+    border-radius: 999px;
+    background-color: gray;
+    background-image: url(../img/profile.svg);
+    
+}
 
+.user-img {
+    width: 19px;
+    
+
+}
+
+.username {
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.user-container {
+    display: flex;
+    align-items: center;
+    
+}
 
 
 
