@@ -52,7 +52,9 @@ html {
 }
 
 button {
-    display: contents;
+	background-color: transparent;
+	border: none;
+	color: currentColor;
 }
 
 
@@ -194,7 +196,7 @@ button {
 
 .sidebar {
     padding-top: 20px;
-    padding-left: 10px;
+    padding-left: 23px;
 }
 
 .logo-container {
@@ -217,11 +219,14 @@ button {
 .sidebar-text {
     font-size: 15px;
     font-weight: bold;
+    padding-left: 10px;
 }
 
 .sidebar-content {
     display: flex;
+    align-items: center;
     padding-bottom: 15px;
+    align-content: center;
 
 }
 
@@ -229,6 +234,44 @@ button {
     height: 23px;
     width: 23px;
 }
+
+.t-grey{
+    color: rgb(180, 180, 180);
+}
+
+.playlist-section h3 {
+    padding-top: 10px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+.add-btn {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
+.plus {
+    background-color: rgba(217, 217, 217, 1);
+	border: none;
+	color: black;
+    font-size: 30px;
+    line-height: 23px;
+    padding: 7px;
+
+}
+
+.playlist-list li {
+    padding: 10px 0px;
+}
+
+
+
+
+
+
+
+
 
 /* MEDIA QUERY */
 
