@@ -321,6 +321,11 @@ button {
     
 }
 
+.download-btn {
+    font-size: 18px;
+    display: none;
+}
+
 
 
 /* MEDIA QUERY */
@@ -372,6 +377,10 @@ button {
 
     .playlist-section {
         display: none;
+    }
+
+    .download-btn {
+        display: contents;
     }
 
     /* SLIDER */
