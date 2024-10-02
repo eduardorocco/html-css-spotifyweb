@@ -135,19 +135,20 @@ button {
     gap: 15px;
 }
 
-.volume.grey-bar {
-    width: 120px;
-    margin: 0 5px;
-    margin-right: 10px;
-    flex-shrink: 1;
-}
-
 .fa-bars,
 .fa-desktop,
 .fa-desktop {
     font-size: 16px;
 }
 
+.slider-volume {
+	height: 4px;
+	min-width: 120px;
+    border-radius: 999px;
+	background-color: rgba(255, 255, 255, 0.5);
+    margin: 0 10px;
+    margin-left: 0;
+}
 
 /* SONG */
 
@@ -188,6 +189,7 @@ button {
  color: rgba(135, 135, 135, 1);
 }
 
+
 /* MEDIA QUERY */
 
 @media (max-width: 877.99px) {
@@ -197,11 +199,16 @@ button {
 
 @media (max-width: 638.99px) {
 
-        /* SONG BTN */
+    /* SONG BTN */
 
     .song-btn {
             flex-direction: column;
             margin-right: 10px;
+    }
+
+    .slider-volume {
+        min-width: 103px;
+     
     }
 
 }
@@ -216,7 +223,12 @@ button {
         flex-basis: 50px;
         
     }
+    
+    .slider-volume {
+        min-width: 60px;
+        margin-left: -10px;
      
+    }
 }
 
 
