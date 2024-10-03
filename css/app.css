@@ -70,6 +70,8 @@ button {
     display: flex;
     justify-content: space-between;
     height: 90px;
+    position: sticky;
+    bottom: 0;
     
 }
 
@@ -397,6 +399,7 @@ button {
 
 .img-thumbnail {
     width: 175px;
+    aspect-ratio: 1 / 1;
 }
 
 .col-2 {
