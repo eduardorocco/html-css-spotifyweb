@@ -415,6 +415,7 @@ button {
     width: 175px;
     font-size: 14px;
     text-align: center;
+    padding-top: 15px;
 }
 
 .col-2 p {
@@ -423,6 +424,16 @@ button {
     font-size: 12px;
 }
 
+.showcase p {
+    color:  rgba(120, 122, 127, 1);
+    font-size: 12px;
+    padding-left: 20px;
+}
+
+.circular-square {
+    border-radius: 50%;
+    overflow: hidden;
+}
 
 
 
