@@ -156,7 +156,6 @@ button {
 
 .song-item {
     display: flex;
-    justify-content: center;
     align-items: center;
     margin-left: 10px;
     gap: 10px;
@@ -176,6 +175,7 @@ button {
     font-size: 12px;
     font-weight: bold;
     color: rgba(135, 135, 135, 1);
+    
 }
 
 .song-btn {
@@ -209,11 +209,17 @@ button {
     height: 23px;
     width: 23px;
     margin-bottom: 15px;
+    display: none;
 }
 
 .logo-l {
     height: 43px;
     margin-bottom: 30px;
+}
+
+.logo-sm {
+    height: 33px;
+    padding-bottom: 10px;
 }
 
 
@@ -327,6 +333,13 @@ button {
 }
 
 
+/* MAIN PAGE*/
+
+.banner {
+    height: 90px;
+    background-color: rgba(8, 11, 18, 1);
+}
+
 
 /* MEDIA QUERY */
 
@@ -356,10 +369,18 @@ button {
     
 
     /* SIDEBAR */
+    
+    .logo-container-sm {
+        display: contents;
+    }
 
     .sidebar {
         flex-basis: 50px;
-        padding-left: 12px;
+        padding: 0;
+        padding-top: 20px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
 
     .logo-container-l {
@@ -383,12 +404,23 @@ button {
         display: contents;
     }
 
+    
+    .user-container {
+        margin-left: 12px;
+    }
+
     /* SLIDER */
 
     .slider-volume {
         min-width: 60px;
         margin-left: -10px;
      
+    }
+
+    /* PLAYER */
+
+    .song-btn {
+        padding-left: 0px;
     }
 }
 
