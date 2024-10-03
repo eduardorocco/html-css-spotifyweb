@@ -340,6 +340,17 @@ button {
     background-color: rgba(8, 11, 18, 1);
 }
 
+.upgrade-btn {
+    background-color: transparent;
+	border: 1px solid white;
+	color: currentColor;
+    text-transform: uppercase;
+    font-weight: bolder;
+    padding: 12px 25px;
+    border-radius: 999px;
+    line-height: 18px;
+    font-size: 10px;
+}
 
 /* MEDIA QUERY */
 
