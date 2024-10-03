@@ -361,6 +361,37 @@ button {
 
 }
 
+.page-list li {
+
+    font-weight: bolder;
+    color: rgba(120, 122, 127, 1);
+    text-transform: uppercase;
+    font-size: 14px;
+    align-content: center;
+
+}
+
+.page-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.page-bar {
+    padding-top: 10px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
 /* MEDIA QUERY */
 
 @media (max-width: 877.99px) {
