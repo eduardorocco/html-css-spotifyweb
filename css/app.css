@@ -57,6 +57,10 @@ button {
 	color: currentColor;
 }
 
+.col-2 {
+    width: calc(2 * (100% / 12));
+}
+
 
 /* PLAYER */
 
@@ -358,17 +362,14 @@ button {
     border-radius: 999px;
     line-height: 13px;
     font-size: 10px;
-
 }
 
 .page-list li {
-
     font-weight: bolder;
     color: rgba(120, 122, 127, 1);
     text-transform: uppercase;
     font-size: 14px;
     align-content: center;
-
 }
 
 .page-list {
@@ -381,6 +382,42 @@ button {
 .page-bar {
     padding-top: 10px;
     width: 100%;
+}
+
+.showcase h2 {
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 45px;
+}
+
+.main-case {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img-thumbnail {
+    width: 175px;
+}
+
+.col-2 {
+    display: flex;
+    flex-direction: column;
+    width: 175px;
+    align-items: center;
+    margin: 18px;
+    flex-shrink: 1;
+}
+
+.col-2 h3 {
+    width: 175px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.col-2 p {
+    padding-top: 5px;
+    color:  rgba(120, 122, 127, 1);
+    font-size: 12px;
 }
 
 
