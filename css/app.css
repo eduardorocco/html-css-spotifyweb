@@ -338,9 +338,17 @@ button {
 .banner {
     height: 90px;
     background-color: rgba(8, 11, 18, 1);
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 20px;
+    position: sticky;
+    top: 0;
 }
 
 .upgrade-btn {
+    width: 190px;
+    height: 38px;
     background-color: transparent;
 	border: 1px solid white;
 	color: currentColor;
@@ -348,8 +356,9 @@ button {
     font-weight: bolder;
     padding: 12px 25px;
     border-radius: 999px;
-    line-height: 18px;
+    line-height: 13px;
     font-size: 10px;
+
 }
 
 /* MEDIA QUERY */
